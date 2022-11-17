@@ -129,7 +129,7 @@ export default function Login() {
             {loggingIn.error.message}
           </p>
         </Show>
-        <button type="submit">{data() ? "Login" : ""}</button>
+        <button type="submit">Login</button>
       </Form>
     </main>
   );
